@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="claimsubmission.css">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<div class="wrap">
+    <div class="main">
+        <h1>Claim Submission Form</h1>
+        <label>
+            <input type="text" placeholder="Subject" class="subject">
+        </label>
+        <label>
+            <textarea placeholder="Please provide us with as much information as possible." class="details"></textarea>
+        </label>
+        <div class="submission">
+            <button class="submit" id="myBtn">Submit</button>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal" id="myModal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="close">&times;</span>
+            <h2>Submission Successful</h2>
+        </div>
+        <div class="modal-body">
+            <p>Your claim has successfully been submitted! Please wait patiently as our team investigates this case. We will notify you if we need more information or discover anything.</p>
+        </div>
+    </div>
+</div>
+
+<script src="js/claimsubmission.js"></script>
+</body>
+</html>

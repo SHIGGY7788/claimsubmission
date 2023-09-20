@@ -1,0 +1,153 @@
+body {
+    background-color: #112;
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.main {
+    width: 75rem;
+    height: 50rem;
+    border: 2px solid white;
+    background-color: #223;
+
+}
+
+h1 {
+    color: white;
+    margin-left: 2rem;
+    margin-top: 2rem;
+
+}
+
+.subject {
+    width: 30rem;
+    height: 2rem;
+    margin: auto 2.5rem;
+    background-color: #223;
+    border: solid white 2px;
+    color: white;
+    &::placeholder {
+        color: white;
+    }
+}
+
+.details {
+    text-align: start;
+    background-color: #223;
+    border: solid white 2px;
+    width: 70rem;
+    height: 30rem;
+    margin: auto 2.5rem;
+    resize: none;
+    color: white;
+    ::placeholder {
+        color: white;
+    }
+}
+
+.submission {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.submit {
+    width: 15rem;
+    height: 4rem;
+    color: white;
+    background-color: #223;
+    border: white solid 2px;
+    box-shadow: 4px 4px 6px black;
+    cursor: pointer;
+}
+.submit:hover,
+.submit:active {
+    background-color: #112;
+}
+
+.button1 {
+    position: absolute;
+    left: 35%;
+    top: 5%;
+    width: 150px;
+    height: 50px;
+    box-shadow: black;
+    border: black 2px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.button2 {
+    position: absolute;
+    left: 45%;
+    top: 5%;
+    width: 150px;
+    height: 50px;
+    box-shadow: black;
+    border: black 2px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.button3 {
+    position: absolute;
+    left: 55%;
+    top: 5%;
+    width: 150px;
+    height: 50px;
+    box-shadow: black;
+    border: black 2px;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.modal {
+    background-color: white;
+    border: none;
+    position: fixed;
+    display: none;
+    z-index: 1;
+    top: 30%;
+    left: 22%;
+    bottom: 0;
+    right: 0;
+    width: 55%;
+    height: 20%;
+    overflow: hidden;
+    box-shadow: 0 0 1000px 1000px rgba(0,0,0,0.50);
+    border-radius: 10px;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 30px;
+    width: 500px;
+    backdrop-filter: blur(100%);
+}
+
+.close {
+    color: black;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+
+
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-body {
+    width: 1000px;
+}
